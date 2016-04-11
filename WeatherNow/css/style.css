@@ -1,0 +1,34 @@
+body {
+  background: url("../sky_texture1980.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+h1 {
+  text-align: center; }
+
+.city {
+  text-align: center; }
+
+#currentWeather {
+  display: none;
+  text-align: center;
+  font-size: 16px; }
+  #currentWeather .icon {
+    display: inline-block;
+    margin-right: 10px; }
+  #currentWeather .temp, #currentWeather .unit, #currentWeather .c, #currentWeather .f {
+    display: inline; }
+  #currentWeather .f {
+    display: none; }
+  #currentWeather .unit {
+    padding-right: 5px;
+    cursor: pointer;
+    font-size: 20px; }
+  #currentWeather .temp {
+    font-size: 20px; }
+  #currentWeather .main {
+    font-size: 18px; }
+
+/*# sourceMappingURL=style.css.map */

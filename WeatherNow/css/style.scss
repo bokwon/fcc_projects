@@ -1,0 +1,23 @@
+body{
+  background: url("../sky_texture1980.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+}
+.city {text-align: center;}
+
+#currentWeather{
+  display: none;
+  text-align: center;
+  font-size: 16px;
+  .icon {display: inline-block; margin-right:10px;}
+  .temp, .unit, .c, .f {display: inline;}
+  .f {display: none;}
+  .unit {padding-right: 5px; cursor: pointer; font-size: 20px;}
+  .temp {font-size: 20px;}
+  .main {font-size: 18px;}
+}
